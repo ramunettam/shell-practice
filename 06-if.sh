@@ -1,12 +1,10 @@
 #!/bin/bash
 
-read num1
+NUMBER=$1
 
-echo "enter num to check it is greate than 30"
-
-if [ $num -gt 30 ]
+if [ $NUMBER -gt 10 ]
 then
-echo "the given num  $nun is greater than 30"
+    echo "Given number $NUMBER is greater than 10"
 else
-echo "given num is less tan 30"
+    echo "Given number $NUMBER is less than 10" 
 fi
