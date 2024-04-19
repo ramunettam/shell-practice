@@ -1,5 +1,5 @@
 #!/bin/bash
-echo " enrtr the number"
+echo " enrter the number"
 read NUMBER
 
 if [ $NUMBER -gt 10 ]
