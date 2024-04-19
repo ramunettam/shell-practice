@@ -1,6 +1,6 @@
 #!/bin/bash
-
-NUMBER=$1
+echo " enrtr the number"
+read NUMBER
 
 if [ $NUMBER -gt 10 ]
 then
