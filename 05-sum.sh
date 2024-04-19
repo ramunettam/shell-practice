@@ -2,4 +2,7 @@
 
 num1=$1
 num2=$2
-echo " the sum of two num:: sum=(($num1 + $num2))"
+ 
+ sum=$($num1 + $num2)
+
+ echo "the sum of $num1 and $num2 is::$sum"
