@@ -1,10 +1,10 @@
 #!/bin/bash
 
 MOVIES=("rr" "dj" "bb" )
-r=\e[1;31m
-Y=\e[1;34m
-n=\e[1;0m
-t=\e[1;32m
+r=\e[31m
+Y=\e[34m
+n=\e[0m
+t=\e[32m
 
 echo -e " $r first movie: ${MOVIES[0]} $n"
 
