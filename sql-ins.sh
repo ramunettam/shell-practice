@@ -9,3 +9,4 @@ then
  else
 
  echo "your are super user"
+fi
