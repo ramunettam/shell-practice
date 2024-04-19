@@ -4,7 +4,7 @@ read num1
 
 echo "enter num to check it is greate than 30"
 
-if[$num -gt 30]
+if [$num -gt 30]
 then
 echo "the given num  $nun is greater than 30"
 else
