@@ -11,9 +11,12 @@ then
  echo "your are super user installing my sql"
   dnf install -y mysql
   
+  
 fi
 if [ $? -ne 0 ] # $? to check last cmd status if it os 0 sucess
 then
 
 echo "instalations not sucess"
+else
+echo "intalations is sucess"
 fi
